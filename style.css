@@ -1,0 +1,260 @@
+html,
+body {
+  /*Убираем отступы старницы сайта*/
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(241, 194, 194);
+  font-family: "Oswald", serif;
+}
+
+.container_sait {
+  /*Контейнер для того чтобы задать боковые отступы */
+  background-color: rgb(255, 255, 255);
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 6000px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 60px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #444444;
+  font-size: 24px;
+}
+
+.phone-and-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone-block {
+  width: 197px;
+  height: 107px;
+  padding: 0px;
+  margin: 10px;
+  text-align: right;
+}
+
+.phone {
+  font-size: 25px;
+}
+
+.zagolovok {
+  font-size: 20px;
+  color: #444444;
+}
+
+.button {
+  padding: 25px 16px;
+  background-color: #ff5545;
+  border: none;
+  border-radius: 15px;
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+}
+
+
+.container_article_2 {
+    background-color: #F7F8FA;
+    margin-top: 150px;
+    width: 1440px;
+    height: 1120px;
+}
+
+.opisanie_yslyg {
+    text-align: center;
+}
+
+.yslyga {
+    font-size: 40px;
+    color: #FF5545;
+}
+
+.vashi {
+    font-size: 135px;
+    padding: 0px;
+}
+
+.obrat {
+    font-size: 62px;
+    color: #444444;
+}
+
+
+.img {
+    margin-top: 70px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px;
+}
+
+
+.container_article_3 {
+display: flex;
+justify-content: space-between;
+    width: 1440px;
+    height: 516px;
+}
+
+.text-column-1 {
+    padding-top: 100px;
+    padding-left: 200px;
+    width: 540px; 
+    height: 376px;
+    font-size: 60px;
+    font-weight: bolder;
+
+
+}
+
+
+
+
+.text-column-2 {
+    padding-top: 100px;
+    padding-right: 200px;
+    width: 540px; 
+    height: 376px; 
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+
+.container_carts {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.info {
+    width: 445px;
+    height: 236px;
+    margin-right: 200px;
+}
+
+.contact {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.phon {
+    font-size: 15px;
+    color: #444444;
+    padding-top: 10px;
+}
+
+
+.email {
+    font-size: 15px;
+    color: #FF5545;
+}
+
+.strit {
+    font-size: 15px;
+    color: #444444;
+    padding-top: 10px;
+}
+
+.button_what {
+    all: unset;
+    margin-top: 30px;
+    background-color: #00E676;
+    padding: 20px 70px;
+    color: white;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+
+    
+}
+
+.img_what {
+    padding-right: 10px;
+}
+
+
+
+
+.footer {
+  margin-top: 100px;
+    background-color: whitesmoke; /* Темный фон */
+    color: #000000; /* Белый текст */
+    padding: 40px 0; /* Отступы сверху и снизу */
+    max-width: 1440px; /* Максимальная ширина контента */
+    height: 170px;
+  }
+  
+  /* Контент футера */
+  .footer-content {
+    display: flex;
+    justify-content: space-around; /* Равномерное распределение блоков */
+    flex-wrap: wrap; /* Перенос на новую строку, если не хватает места */
+    max-width: 1440px; /* Максимальная ширина контента */
+    height: 100%;
+
+    margin: 0 auto; /* Центрирование */
+    padding: 0 20px; /* Отступы по бокам */
+  }
+  
+  /* Стили для каждого блока */
+  .footer-section {
+    flex: 1; /* Равномерное распределение пространства */
+    min-width: 250px; /* Минимальная ширина блока */
+    margin: 10px 0; /* Отступы между блоками */
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px; /* Отступ под заголовком */
+    font-size: 18px; /* Размер заголовка */
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Убираем маркеры списка */
+  }
+  
+  .footer-section a {
+    color: #000000; /* Белый цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: color 0.3s ease; /* Плавное изменение цвета */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Текст по центру */
+    padding: 20px 0; /* Отступы */
+    background-color: whitesmoke; /* Темный фон */
+    margin-top: 20px; /* Отступ от основного контента */
+    max-width: 1440px; /* Максимальная ширина контента */
+    height: 100%;
+  }
